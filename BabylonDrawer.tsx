@@ -6,12 +6,9 @@ import {EngineScreen} from './components/EngineScreen';
 
 export const BabylonDrawer = (): ReactElement => {
   return (
-    <ActionSheet
-      gestureEnabled={true}
-      id={BABYLON_ACTION_SHEET}
-    >
+    <ActionSheet gestureEnabled={true} id={BABYLON_ACTION_SHEET}>
       <View style={{height: '90%'}}>
-        {/*<Text style={{fontSize: 70}}>KUKUKUKU</Text>*/}
+        {/*<Text style={{fontSize: 70}}>Test</Text>*/}
         <EngineScreen style={{flex: 1}} />
       </View>
     </ActionSheet>
